@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 Arovyam — Integrative Health & Naturopathy
 
-## Getting Started
+**Look beyond symptoms. Understand the person.**
 
-First, run the development server:
+Arovyam is a modern, responsive healthcare website designed for an integrative health and naturopathy practice. It provides information about health services, wellness programmes, and doctor-guided supportive care, with WhatsApp integration for enquiries.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌱 About the Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Arovyam aims to provide visitors with a clean, accessible, and informative online experience where they can explore available services, understand the practice's approach, and enquire about consultations.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The website focuses on individual-centred wellness, clinical nutrition, yoga therapy, and naturopathy-based lifestyle guidance.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
 
-## Learn More
+- **Modern UI/UX:** Clean, professional, wellness-focused design.
+- **Responsive Design:** Optimised for desktop, tablet, and mobile devices.
+- **Doctor Profile:** Information about Dr. Darshan V R and his qualifications.
+- **Health Services:** Dedicated sections describing available services.
+- **Wellness Programmes:** Information about programmes and available details.
+- **WhatsApp Integration:** Direct links for consultation enquiries.
+- **Contact Form:** Collects basic enquiry details and prepares a WhatsApp message.
+- **FAQ Section:** Answers common questions about the practice.
+- **Legal Pages:** Privacy Policy, Terms and Conditions, and Medical Disclaimer.
+- **SEO-Friendly Structure:** Metadata and semantic page organisation.
 
-To learn more about Next.js, take a look at the following resources:
+## 🩺 Services
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The website presents information about services such as:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- General Consultation
+- Diabetes Support
+- Therapeutic Nutrition
+- Yoga Therapy
+- Naturopathy-Based Support
+- Gut and Digestive Wellness
 
-## Deploy on Vercel
+*Service availability and suitability should be confirmed directly with the practice.*
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Technology Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Framework:** Next.js
+- **Frontend:** React
+- **Language:** TypeScript
+- **Styling:** CSS / Tailwind CSS, depending on the project configuration
+- **Version Control:** Git and GitHub
+- **Deployment:** Vercel
+- **Enquiry Integration:** WhatsApp
+
+## 📁 Project Structure
+
+```text
+arovyam/
+├── app/
+│   ├── page.tsx
+│   ├── layout.tsx
+│   ├── globals.css
+│   ├── privacy/
+│   ├── terms/
+│   └── disclaimer/
+├── components/
+│   ├── site-header.tsx
+│   ├── site-footer.tsx
+│   ├── Whatsapp-enquiry.tsx
+│   └── whatsapp-float.tsx
+├── lib/
+│   └── site.ts
+├── public/
+├── package.json
+└── README.md
