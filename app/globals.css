@@ -945,8 +945,8 @@ h1 em, h2 em {
 .service-icon-wrapper {
   display: grid;
   place-items: center;
-  width: 48px;
-  height: 48px;
+  width: 28px;
+  height: 28px;
   border-radius: 50% 50% 4px 50%;
   background: var(--cream);
   color: var(--forest);

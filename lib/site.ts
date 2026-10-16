@@ -31,7 +31,7 @@ export const site = {
   descriptor: "Integrative Health & Naturopathy",
   tagline: "Look beyond symptoms. Understand the person.",
   doctorName: "Dr. Darshan V R",
-  qualification: "BNYS",
+  qualification: "Naturopathy and Yogic Sciences",
   certificate: "Certificate in Integrative Management of Diabetes Mellitus",
   // Verification notice: Replace this with the verified business WhatsApp number before public launch
   whatsappNumber: "919353359968",
@@ -46,7 +46,7 @@ export const whatsappUrl = (
 
 export const navLinks = [
   { label: "Home", href: "#home" },
-  { label: "About the Doctor", href: "#doctor" },
+  { label: "Clinical Team", href: "#doctor" },
   { label: "Services", href: "#services" },
   { label: "Programmes", href: "#programmes" },
   { label: "How It Works", href: "#how-it-works" },
@@ -206,7 +206,7 @@ export const consultationSteps: StepItem[] = [
     number: "03",
     title: "Discuss Your Requirements",
     description:
-      "Dr. Darshan and the team review your enquiry, discuss availability, answer questions, and schedule your online consultation.",
+      "Our clinical team reviews your enquiry, assesses your requirements, answers preliminary questions, and schedules your online consultation.",
   },
   {
     number: "04",
@@ -220,7 +220,7 @@ export const faqs: FaqItem[] = [
   {
     question: "What is Arovyam?",
     answer:
-      "Arovyam is a doctor-led integrative health and naturopathy practice founded on the philosophy of looking beyond symptoms to understand the whole person. Led by Dr. Darshan V R (BNYS), Arovyam offers online-first supportive care combining clinical nutrition, yoga therapy, and naturopathic lifestyle guidance.",
+      "Arovyam is a doctor-led integrative health and naturopathy practice founded on the philosophy of looking beyond symptoms to understand the whole person. Directed by Dr. Darshan V R (Naturopathy and Yogic Sciences) alongside a dedicated clinical team, Arovyam offers online-first supportive care combining clinical nutrition, yoga therapy, and naturopathic lifestyle guidance.",
   },
   {
     question: "What services are available?",

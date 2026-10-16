@@ -3,7 +3,7 @@ import { site } from "@/lib/site";
 import "./globals.css";
 
 export const viewport: Viewport = {
-  themeColor: "#173E32",
+  themeColor: "#081410",
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
@@ -16,12 +16,12 @@ export const metadata: Metadata = {
     template: `%s | ${site.name}`,
   },
   description:
-    "Doctor-guided, online-first supportive care combining clinical nutrition, yoga therapy, and naturopathy-based lifestyle guidance led by Dr. Darshan V R (BNYS).",
+    "Doctor-guided, online-first supportive care combining clinical nutrition, yoga therapy, and naturopathy-based lifestyle guidance specializing in Naturopathy and Yogic Sciences.",
   applicationName: site.name,
   keywords: [
     "Arovyam",
     "Dr Darshan V R",
-    "BNYS",
+    "Naturopathy and Yogic Sciences",
     "Naturopathy",
     "Integrative Health",
     "Clinical Nutrition",

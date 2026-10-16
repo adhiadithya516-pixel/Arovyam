@@ -77,7 +77,7 @@ export function AboutDoctor() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span>Ask about consultation options with Dr. Darshan</span>
+              <span>Ask about consultation options</span>
               <ArrowUpRightIcon size={15} />
             </a>
           </div>

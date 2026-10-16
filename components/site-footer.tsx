@@ -14,8 +14,8 @@ export function SiteFooter() {
               <Image
                 src="/logo-emblem.png"
                 alt="Arovyam Emblem"
-                width={46}
-                height={48}
+                width={34}
+                height={32}
                 className="brand-logo-img"
               />
             </span>
