@@ -29,8 +29,8 @@ export const IMAGES = {
 export const NAV_LINKS = [
     { label: "Home", id: "#home" },
     { label: "Our Approach", id: "#approach" },
-    { label: "Doctors & Team", id: "#doctors" },
     { label: "Services", id: "#services" },
+    { label: "Doctors & Team", id: "#doctors" },
     { label: "Programmes", id: "#programmes" },
     { label: "Health Focus Areas", id: "#focus" },
     { label: "FAQs", id: "#faqs" },
